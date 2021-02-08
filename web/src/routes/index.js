@@ -5,7 +5,7 @@ import {
   HomePage,
   Login,
   SignInPage,
-  Details,
+  DetailsP,
   NotFound,
   LoadingPage,
 } from '../pages';
@@ -16,7 +16,7 @@ const Routes = () => (
     <Route path="/loading" component={LoadingPage} />    
     <Route path="/sigin" component={SignInPage} />
     <Route path="/home" component={HomePage} />
-    <Route path="/details/:id" component={Details} />
+    <Route path="/details/:id" component={DetailsP} />
     <Route component={NotFound} />
   </Switch>
 );
