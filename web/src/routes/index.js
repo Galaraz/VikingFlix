@@ -6,14 +6,16 @@ import {
   Login,
   SignInPage,
   DetailsP,
-  NotFound,
+  ProfilechoosePage,
   LoadingPage,
+  NotFound,
 } from '../pages';
 
 const Routes = () => (
   <Switch>
     <Route exact path="/" component={Login} />
     <Route path="/loading" component={LoadingPage} />    
+    <Route path="/profile" component={ProfilechoosePage} />
     <Route path="/sigin" component={SignInPage} />
     <Route path="/home" component={HomePage} />
     <Route path="/details/:id" component={DetailsP} />

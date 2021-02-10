@@ -35,10 +35,10 @@ class SignInComponent extends React.Component {
           <Form.Control type="password" placeholder="Confirma senha" />
         </Form.Group>
 
-        <Button variant="primary" type="submit" size="lg" block>
+        <Button variant="primary" type="submit" size="lg" block href="/profile">
           Cadastrar
         </Button>
-        <Button variant="link" type="submit" size="lg" block>
+        <Button variant="link" type="submit" size="lg" block href="/">
           Já tenho uma conta
         </Button>
       </Form>
