@@ -13,7 +13,7 @@ class LoginComponent extends React.Component {
                <Form.Control type="password" placeholder="Senha" />
             </Form.Group>
             
-            <Button variant="primary" type="submit" size="lg" block classeName="EntrarBnt" href="/home"> 
+            <Button variant="primary" type="submit" size="lg" block classeName="EntrarBnt" href="/profile"> 
               Entrar
             </Button>
            
