@@ -5,7 +5,7 @@ import {
 		API_DISCOVERY_MOVIE, API_COMPANY_URL, API_DISCOVERY_TV
 
 	
-	} from '../config.json';
+	} from '../../config.json';
 
 
 

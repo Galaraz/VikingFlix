@@ -1,13 +1,15 @@
 import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-
+import { MovieProvider } from "./context/MovieContext";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
+    <MovieProvider>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </MovieProvider>
   );
 }
 

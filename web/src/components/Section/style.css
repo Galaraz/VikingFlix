@@ -1,0 +1,160 @@
+main > section > section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.switch{
+    margin-top: 30px;
+}
+
+.section-header > div > span{
+    position: relative;
+    top: 8px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 10px;
+}
+
+main > section > div > h3{
+    margin: 30px 0px 30px 80px;
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #333;
+    color: #fff;
+    background-color: #1ec7c7;
+}
+
+.movie-card{
+    width: 230px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px; */
+    border-radius: 5px;
+    background-color: #222;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 3px #222;
+    /* position: relative; */
+    transition: cubic-bezier(.34,2,.6,1) 0.2s;
+}
+
+.movie-card:hover{
+    /* top: -3px; */
+    transform: translate(0px, -10px);
+}
+
+.movie-card a{
+    text-decoration: none;
+}
+
+.movie-card > .movie-poster{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-top: 10px; */
+}
+
+.movie-card img{
+    width: 100%;
+    height: 330px;
+    border-radius: 5px 5px 0px 0px;
+    vertical-align: middle;
+}
+
+.movie-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-body .movie-title{
+    width: 75%;
+    padding: 10px 0px 0px 15px;
+    color: #fefefe;
+    font-size: 15px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.movie-body .movie-badge{
+    box-shadow: 1px 1px 3px #eee;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.movie-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+}
+
+.movie-footer span{
+    color:#666;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.movie-character{
+    margin-top:8px;
+    overflow: hidden;
+    height: 23px;
+}
+
+.movie-character span{
+    color: #666;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+@media (max-width: 767px){
+    main > section > div > h3{
+        font-size: 15px;
+        margin: 20px 0px 30px 20px !important;
+    }
+
+    .section-header{
+        margin-right: 20px;
+    }
+
+    .section-header > div > span{
+        display: none;
+    }
+
+    .switch{
+        margin-top: 20px !important;
+    }
+
+    main > section > section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .movie-card{
+        width: 100%;
+    }
+
+    .movie-character{
+        margin-top: 0px;
+    }
+
+}
