@@ -4,11 +4,11 @@
 Link --> https://viking-flix.galaraz.vercel.app/
 
 
-## O que é o APP 
+## O que é o APP: 
 
 Viking Flix é uma aplicaçao que mostra filmes e series te possibilitando criar a sua propria lista de filmes ultilizando uma poderosa API a themoviedb.  
 
-### Tecnologias usadas 
+### Tecnologias usadas: 
 
 * ReactJs - stack javascript escolhida 
 * Axio - para comunicaçao com API do TMDB
@@ -38,12 +38,12 @@ Consulte a seção sobre [running tests](https://facebook.github.io/create-react
 
 
 
-## O que é Aprendi 
+### O que é Aprendi: 
 
 * Manipular API
 * Context API 
 
-## Proximos passos Ate aqui
+### Proximos passos Ate aqui:
 
 * terminar o css - versao atual frankstain 
 * completar metodo de validaçao
