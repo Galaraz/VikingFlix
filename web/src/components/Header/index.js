@@ -131,7 +131,7 @@ function Header() {
   }
 
   return (
-    <Navbar bg="light" expand="lg" variant="light" fixed="top" >
+    <Navbar bg="light" expand="lg" variant="light" sticky="top" >
       <Nav as="ul">
         <Nav.Item as="li">
           <Nav.Link href="/home">Filmes&Series</Nav.Link>
