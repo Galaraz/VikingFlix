@@ -1,0 +1,17 @@
+
+    {
+        "API_AUTH_KEY":"5a9ac975da01e7ff2c086d9b3076541a",
+        "API_MOVIE_URL":"https://api.themoviedb.org/3/movie",
+        "API_LANG":"pt-BR",
+        "API_PERSON_URL":"https://api.themoviedb.org/3/person",
+        "API_SEARCH":"https://api.themoviedb.org/3/search",
+        "API_GENRES":"https://api.themoviedb.org/3/genre/movie/list",
+        "API_TV_URL":"https://api.themoviedb.org/3/tv",
+        "API_TRENDS_URL":"https://api.themoviedb.org/3/trending",
+        "API_CERTIFICATE_MOVIE":"https://api.themoviedb.org/3/certification",
+        "API_DISCOVERY_MOVIE":"https://api.themoviedb.org/3/discover",
+        "API_COMPANY_URL":"https://api.themoviedb.org/3/company",
+        "API_DISCOVERY_TV":"https://api.themoviedb.org/3/discover/tv"
+      }
+
+
