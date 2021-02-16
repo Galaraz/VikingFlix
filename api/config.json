@@ -1,0 +1,13 @@
+{
+    "development": {
+      "port": 3001,
+      "db": {
+        "nome": "Spar-trybe-DB",
+        "url": "cluster0.dwyaz.mongodb.net",
+        "porta": "",
+        "user": "hakatrybes",
+        "password": "shawee2020"
+      }
+   
+    }
+  }
