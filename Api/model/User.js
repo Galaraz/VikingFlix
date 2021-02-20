@@ -28,6 +28,7 @@ class User extends Mongoose.Schema {
               {
                 id: String,
                 foto:String,
+                name:String,
                 wathList: [],
                 watched: [],
               },
@@ -37,6 +38,7 @@ class User extends Mongoose.Schema {
               {
                 id: String,
                 foto:String,
+                name:String,
                 wathList: [],
                 watched: [],
               },
@@ -46,6 +48,7 @@ class User extends Mongoose.Schema {
               {
                 id: String,
                 foto:String,
+                name:String,
                 wathList: [],
                 watched: [],
               },
@@ -54,6 +57,8 @@ class User extends Mongoose.Schema {
             P4: [
               {
                 id: String,
+                foto:String,
+                name:String,
                 wathList: [],
                 watched: [],
               },

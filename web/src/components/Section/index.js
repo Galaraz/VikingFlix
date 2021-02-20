@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import API from '../../services/Api';
 import { Link } from 'react-router-dom';
-import './style.css';
+/* import './style.css'; */
 import SlideButton from '../Button/SlideButton';
+import ResultCard from '../MovieCrud/ResultCard';
+
 function Section(props) {
 	const genres = props.genres;
 	const [movies, setMovies] = useState([]);
@@ -56,7 +58,7 @@ function Section(props) {
 						</div>
 						<div className="movie-footer">
 							{
-								renderMovieFooter(movie)
+								renderMovieFooter(movie)								
 							}
 						</div>
 							{
@@ -68,7 +70,9 @@ function Section(props) {
 										
 										: ''))
 								}
+							
 					</Link>
+					<ResultCard movie={movie} />
 				</div>
 			)
 		});
