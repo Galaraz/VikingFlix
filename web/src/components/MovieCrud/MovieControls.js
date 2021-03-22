@@ -14,14 +14,14 @@ const MovieControls = ({ type, movie }) => {
       {type === "watchlist" && (
         <>
           <button className="ctrl-btn" onClick={() => addMovieToWatched(movie)}>
-            adicionar a lista
+            Já Assiti!!
           </button>
 
           <button
             className="ctrl-btn"
             onClick={() => removeMovieFromWatchlist(movie.id)}
           >
-          remover
+          remover da lista
           </button>
         </>
       )}
@@ -36,7 +36,7 @@ const MovieControls = ({ type, movie }) => {
             className="ctrl-btn"
             onClick={() => removeFromWatched(movie.id)}
           >
-           tirar da lista
+           remover da lista
           </button>
         </>
       )}

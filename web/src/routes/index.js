@@ -10,6 +10,7 @@ import {
   LoadingPage,
   WatchListPage,
   NotFound,
+  PersonPage,
 } from '../pages';
 
 const PrivateRoute = ({ component: Component, ...rest})=>(
@@ -34,6 +35,7 @@ const Routes = () => (
     <Route path="/sigin" component={SignInPage} />
     <PrivateRoute path="/home" component={HomePage} />
     <PrivateRoute path="/watchlist" component={WatchListPage} />
+    <PrivateRoute path="/person/:id" component={ PersonPage } />
     <PrivateRoute path="/:media/:id" component={DetailsMP}/>
     <Route component={NotFound} />
   </Switch>
