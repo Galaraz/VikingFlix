@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import API from '../../services/Api';
 import { Link } from 'react-router-dom';
-/* import './style.css'; */
+import './style.css';
 import SlideButton from '../Button/SlideButton';
 import ResultCard from '../MovieCrud/ResultCard';
 

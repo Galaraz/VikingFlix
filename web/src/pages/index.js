@@ -6,5 +6,6 @@ import NotFound from './NotFound';
 import LoadingPage from './LoadingPage';
 import ProfilechoosePage from './ProfilechoosePage';
 import WatchListPage from './WatchListPage';
+import PersonPage from './PersonPage';
 
-export { Login, SignInPage, DetailsMP, HomePage, NotFound, LoadingPage, ProfilechoosePage, WatchListPage };
+export { Login, SignInPage, DetailsMP, HomePage, NotFound, LoadingPage, ProfilechoosePage, WatchListPage,PersonPage };
