@@ -23,8 +23,14 @@ class LoginComponent extends React.Component {
             </Button>
            
             <Form.Text className="text-muted">
-          Esqueceu sua Senha?
+          Login facebook/Google
         </Form.Text>
+        <Button  type="submit"  size="sg" >
+          F
+         </Button> 
+        <Button type="submit"  variant="danger"size="sg">
+          G
+        </Button>
           </Form>
         );
       }}
